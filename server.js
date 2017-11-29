@@ -40,7 +40,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
   res.render('home.hbs', {
     pageTitle: 'Home Page',
-    welcomeMessage: 'Welcome home'
+    welcomeMessage: 'Welcome homee'
   });
 });
 
